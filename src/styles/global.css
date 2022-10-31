@@ -1,0 +1,37 @@
+:root {
+	--title-font: 'Georgia', 'Times New Roman', serif;
+	--text-font: 'Helvetica', sans-serif;
+
+	--light: #fafafa;
+	--light-100: #e7e5e4;
+	--light-200: #d6d3d1;
+	--light-300: #a8a29e;
+
+	--dark-100: #525252;
+	--dark-200: #404040;
+	--dark-300: #262626;
+	--dark: #171717;
+
+	--brand: #c2410c;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 24px;
+	font-family: var(--text-font);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+button,
+input {
+	border: none;
+	box-shadow: none;
+}
