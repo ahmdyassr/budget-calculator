@@ -1,0 +1,6 @@
+.container {
+	--container-width: 600px;
+
+	max-width: var(--container-width);
+	margin: 24px auto 0 auto;
+}
