@@ -6,12 +6,17 @@
 	bottom: 16px;
 	right: 0;
 	left: 0;
+	display: none;
 	/* [1] */
 	width: var(--container-width);
 	margin: 0 auto;
 	padding: 16px;
 	border-radius: 4px;
 	background-color: var(--dark-300);
+}
+
+.alert.isShown {
+	display: block;
 }
 
 .alert__title {
