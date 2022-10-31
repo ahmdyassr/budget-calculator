@@ -1,0 +1,15 @@
+.header {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.header__title {
+	margin-bottom: 8px;
+	color: var(--dark-300);
+	font-family: var(--title-font);
+	letter-spacing: -.03em;
+}
+
+.header__description {
+	color: var(--dark-100);
+}
