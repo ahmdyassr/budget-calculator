@@ -1,0 +1,35 @@
+.form {
+	padding: 16px;
+	border-radius: 4px;
+	background-color: var(--light-200);
+}
+
+.form__inputs {
+	display: grid;
+	grid-template-columns: 1fr .5fr;
+	grid-gap: 12px;
+	margin-bottom: 12px;
+}
+
+.form__input {
+	padding: 12px;
+	border-radius: 4px;
+	background-color: var(--light-100);
+}
+
+.form__input:focus {
+	outline: 1px solid var(--brand);
+}
+
+.form__button {
+	display: block;
+	width: 100%;
+	padding: 12px 0;
+	border-radius: 4px;
+	color: var(--light);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	background-color: var(--brand);
+	cursor: pointer;
+}
