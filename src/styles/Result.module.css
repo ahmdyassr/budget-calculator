@@ -1,0 +1,13 @@
+.result {
+	padding-top: 24px;
+	border-top: 1px solid var(--light-100);
+}
+
+.result__title {
+	color: var(--light-300);
+}
+
+.result__total {
+	color: var(--dark-200);
+	font-size: 36px;
+}
