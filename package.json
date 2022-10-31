@@ -9,7 +9,8 @@
 	"dependencies": {
 		"parcel": "^2.7.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"uuid": "^9.0.0"
 	},
 	"devDependencies": {
 		"process": "^0.11.10"
