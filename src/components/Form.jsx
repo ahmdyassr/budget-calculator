@@ -1,20 +1,7 @@
 import styles from '../styles/Form.module.css'
 import { useState } from 'react'
 
-const Form = () => {
-	const [chargeState, setChargeState] = useState({
-		title: '',
-		amount: null
-	})
-
-	function handleSubmit(e) {
-		e.preventDefault()
-		setChargeState({
-			title: e.target.elements.title.value,
-			amount: e.target.elements.amount.value
-		})
-	}
-	
+const Form = ({ handleSubmit }) => {
 	return (
 		<form className={styles.form} onSubmit={handleSubmit}>
 			<div className={styles.form__inputs}>
